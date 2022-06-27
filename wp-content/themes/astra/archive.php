@@ -1,8 +1,8 @@
 <?php
 /**
- * The template for displaying 404 pages (not found).
+ * The template for displaying archive pages.
  *
- * @link https://codex.wordpress.org/Creating_an_Error_404_Page
+ * @link https://codex.wordpress.org/Template_Hierarchy
  *
  * @package Astra
  * @since 1.0.0
@@ -24,7 +24,11 @@ get_header(); ?>
 
 		<?php astra_primary_content_top(); ?>
 
-		<?php astra_404_content_template(); ?>		
+		<?php astra_archive_header(); ?>
+
+		<?php astra_content_loop(); ?>
+
+		<?php astra_pagination(); ?>
 
 		<?php astra_primary_content_bottom(); ?>
 
