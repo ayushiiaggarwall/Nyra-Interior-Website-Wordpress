@@ -79,7 +79,7 @@
   .elementor-button.elementor-button-go-pro {
     background-color: #93003c; }
   .elementor-button i {
-    margin-right: 10px; }
+    margin-left: 10px; }
 
 #adminmenu #toplevel_page_elementor div.wp-menu-image:before {
   content: "\e813";
@@ -120,7 +120,7 @@ body.admin-color-fresh #adminmenu #toplevel_page_elementor a[href="admin.php?pag
   cursor: pointer; }
   #elementor-switch-mode-button i,
   #elementor-editor-button i {
-    margin-right: 3px;
+    margin-left: 3px;
     font-size: 125%;
     font-style: normal; }
 
@@ -177,7 +177,7 @@ body .block-editor #elementor-switch-mode {
     font-size: 13px;
     line-height: 1; }
     body .block-editor #elementor-switch-mode .button i {
-      padding-right: 5px; }
+      padding-left: 5px; }
 
 .elementor-button {
   font-size: 13px;
@@ -288,7 +288,7 @@ body .block-editor #elementor-switch-mode {
   display: inline-block;
   padding: 0;
   top: 8px;
-  left: -4px;
+  right: -4px;
   position: relative;
   vertical-align: top;
   content: "\f463"; }
@@ -354,8 +354,8 @@ body.post-type-attachment table.media .column-title .media-icon img[src$=".svg"]
     margin: 15px -12px; }
   .e-major-update-warning__icon {
     font-size: 17px;
-    margin-right: 9px;
-    margin-left: 2px; }
+    margin-left: 9px;
+    margin-right: 2px; }
   .e-major-update-warning__title {
     font-weight: 600;
     margin-bottom: 10px; }
@@ -387,8 +387,8 @@ body.post-type-attachment table.media .column-title .media-icon img[src$=".svg"]
     border: none;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-right: 15px;
-    padding-left: 0; }
+    padding-left: 15px;
+    padding-right: 0; }
 
 :root {
   --e-focus-color:  rgba(0, 115, 170, .4);
@@ -440,7 +440,7 @@ body.post-type-attachment table.media .column-title .media-icon img[src$=".svg"]
             box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); }
     .e-getting-started__header .e-logo-wrapper {
       font-size: 10px;
-      margin-right: 10px; }
+      margin-left: 10px; }
   .e-getting-started__title {
     padding: 0 15px;
     font-weight: 600;
@@ -452,7 +452,7 @@ body.post-type-attachment table.media .column-title .media-icon img[src$=".svg"]
         -ms-flex-align: center;
             align-items: center; }
   .e-getting-started__skip {
-    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
     font-size: 16px;
     color: inherit; }
     .e-getting-started__skip i {
@@ -471,7 +471,7 @@ body.post-type-attachment table.media .column-title .media-icon img[src$=".svg"]
       -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
               box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); }
   .e-getting-started__actions .button-primary {
-    margin-right: 20px; }
+    margin-left: 20px; }
 
 :root {
   --e-button-padding-y: 0.4375rem;
@@ -612,7 +612,7 @@ fieldset:disabled a.e-button {
     display: block;
     content: '';
     position: absolute;
-    left: -4px;
+    right: -4px;
     top: -1px;
     bottom: -1px;
     width: 4px;
@@ -731,7 +731,7 @@ fieldset:disabled a.e-button {
   position: relative;
   font-size: 12px;
   line-height: 1.5;
-  text-align: left; }
+  text-align: right; }
   .elementor-admin-alert a {
     color: inherit; }
   .elementor-admin-alert.elementor-alert-info {
@@ -793,10 +793,10 @@ fieldset:disabled a.e-button {
     padding: 5px;
     display: block; }
   #elementor-system-info .elementor-warning td:first-child {
-    border-left: 3px solid #fcb92c; }
+    border-right: 3px solid #fcb92c; }
   #elementor-system-info a.box-title-tool {
     font-size: 80%;
-    margin-left: 15px;
+    margin-right: 15px;
     color: #818a91; }
     #elementor-system-info a.box-title-tool:hover {
       text-decoration: underline; }
@@ -833,15 +833,15 @@ fieldset:disabled a.e-button {
   padding: 18px 15px;
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-  text-align: left; }
+  text-align: right; }
 
 #elementor-deactivate-feedback-modal .dialog-message {
   padding: 30px 30px 0;
-  text-align: left; }
+  text-align: right; }
 
 #elementor-deactivate-feedback-modal .elementor-deactivate-feedback-dialog-input {
-  float: left;
-  margin: 0 15px 0 0;
+  float: right;
+  margin: 0 0 0 15px;
   -webkit-box-shadow: none;
           box-shadow: none; }
   #elementor-deactivate-feedback-modal .elementor-deactivate-feedback-dialog-input:not(:checked) ~ .elementor-feedback-text {
@@ -853,7 +853,7 @@ fieldset:disabled a.e-button {
   color: #6d7882; }
 
 #elementor-deactivate-feedback-modal .elementor-feedback-text {
-  margin: 10px 0 0 30px;
+  margin: 10px 30px 0 0;
   padding: 5px;
   font-size: 13px;
   -webkit-box-shadow: none;
@@ -863,7 +863,7 @@ fieldset:disabled a.e-button {
 
 #elementor-deactivate-feedback-modal .dialog-buttons-wrapper {
   border-top: none;
-  text-align: left;
+  text-align: right;
   padding: 20px 30px 30px;
   overflow: hidden; }
 
@@ -887,7 +887,7 @@ fieldset:disabled a.e-button {
   font-size: 12px;
   color: #a4afb7;
   background: none;
-  float: right;
+  float: left;
   width: auto; }
 
 #elementor-deactivate-feedback-modal[data-feedback-selected="elementor_pro"] .elementor-feedback-text {
@@ -905,7 +905,7 @@ fieldset:disabled a.e-button {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: bold;
-  padding-left: 5px; }
+  padding-right: 5px; }
 
 #elementor-deactivate-feedback-dialog-form-caption {
   font-weight: bold;
@@ -968,7 +968,7 @@ fieldset:disabled a.e-button {
   #elementor_rollback_pro > div select,
   #elementor_replace_url > div input,
   #elementor_replace_url > div select {
-    margin-right: 6px; }
+    margin-left: 6px; }
 
 .tab-import-export-kit__wrapper {
   margin: 40px 0;
@@ -1040,7 +1040,7 @@ fieldset:disabled a.e-button {
 .e-dashboard-widget ul.e-action-list li {
   margin-top: 14px; }
   .e-dashboard-widget ul.e-action-list li a {
-    margin-left: 5px; }
+    margin-right: 5px; }
 
 #e-dashboard-overview .dashicons {
   vertical-align: middle;
@@ -1070,7 +1070,7 @@ fieldset:disabled a.e-button {
   display: block; }
 
 #e-dashboard-overview .e-overview__create {
-  text-align: right; }
+  text-align: left; }
 
 #e-dashboard-overview .e-overview__feed {
   font-size: 14px;
@@ -1110,9 +1110,9 @@ fieldset:disabled a.e-button {
   #e-dashboard-overview .e-overview__footer ul li {
     padding: 0 10px;
     margin: 0;
-    border-left: 1px solid #ddd; }
+    border-right: 1px solid #ddd; }
     #e-dashboard-overview .e-overview__footer ul li:first-child {
-      padding-left: 0;
+      padding-right: 0;
       border: none; }
 
 #e-dashboard-overview .e-overview__go-pro a {
@@ -1137,7 +1137,7 @@ fieldset:disabled a.e-button {
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
-  text-align: left;
+  text-align: right;
   color: #6d7882; }
   @media (max-width: 1439px) {
     #elementor-new-template-dialog-content {
@@ -1149,7 +1149,7 @@ fieldset:disabled a.e-button {
 #elementor-new-template__description {
   width: 35%;
   max-width: 300px;
-  padding-right: 100px; }
+  padding-left: 100px; }
   #elementor-new-template__description__title {
     font-size: 30px;
     color: #556068; }
@@ -1172,7 +1172,7 @@ fieldset:disabled a.e-button {
     font-size: 30px; }
   #elementor-new-template__take_a_tour a {
     color: #6d7882;
-    padding-left: 10px;
+    padding-right: 10px;
     text-decoration: none;
     font-weight: 500; }
 
@@ -1227,7 +1227,7 @@ fieldset:disabled a.e-button {
         content: '\e8ad';
         position: absolute;
         top: 50%;
-        right: 10px;
+        left: 10px;
         -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
                 transform: translateY(-50%); }
@@ -1239,7 +1239,7 @@ fieldset:disabled a.e-button {
 @media (max-width: 1024px) {
   #elementor-new-template__description {
     max-width: 250px;
-    padding-right: 30px; } }
+    padding-left: 30px; } }
 
 @media (max-width: 767px) {
   #elementor-new-template__description {
@@ -1266,9 +1266,9 @@ fieldset:disabled a.e-button {
       font-weight: 500;
       cursor: pointer; }
       #elementor-role-manager .elementor-role-row .elementor-role-label span.elementor-role-name {
-        padding-right: 20px; }
+        padding-left: 20px; }
       #elementor-role-manager .elementor-role-row .elementor-role-label span.elementor-role-toggle {
-        text-align: right;
+        text-align: left;
         -webkit-box-flex: 1;
             -ms-flex-positive: 1;
                 flex-grow: 1; }
@@ -1287,7 +1287,7 @@ fieldset:disabled a.e-button {
           font-weight: 500;
           font-style: italic; }
         #elementor-role-manager .elementor-role-row .elementor-role-controls .elementor-role-go-pro .elementor-role-go-pro__link {
-          text-align: right;
+          text-align: left;
           -webkit-box-flex: 1;
               -ms-flex-positive: 1;
                   flex-grow: 1; }
@@ -1333,15 +1333,15 @@ fieldset:disabled a.e-button {
   display: flex;
   margin-top: 30px; }
   #elementor-beta-tester-form__input-wrapper .elementor-button {
-    border-radius: 0 3px 3px 0; }
+    border-radius: 3px 0 0 3px; }
 
 #elementor-beta-tester-form__email {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   border: #d5dadf 1px solid;
-  border-right: 0;
-  border-radius: 3px 0 0 3px;
+  border-left: 0;
+  border-radius: 0 3px 3px 0;
   margin: 0;
   padding: 10px;
   height: 50px; }
@@ -1371,7 +1371,7 @@ fieldset:disabled a.e-button {
     .e-experiment__title__indicator--active {
       background: #39b54a; }
   .e-experiment__title__label {
-    margin-left: 10px; }
+    margin-right: 10px; }
 
 .e-experiment__table-title {
   margin: 30px 0; }
@@ -1386,11 +1386,11 @@ fieldset:disabled a.e-button {
   font-style: italic; }
 
 .e-experiment__button.button {
-  margin: 18px 14px 22px 0; }
+  margin: 18px 0 22px 14px; }
 
 .e-landing-pages-empty .elementor-blank_state {
   padding: 5em 0 2em 0; }
 
 .e-landing-pages-empty .e-trashed-items {
   text-align: center; }
-/*# sourceMappingURL=admin.css.map */
+/*# sourceMappingURL=admin-rtl.css.map */
